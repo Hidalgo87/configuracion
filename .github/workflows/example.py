@@ -6,7 +6,7 @@ def tarea_de_prueba():
     print('¡La tarea programada se ha ejecutado con éxito!')
 
 # Programa la tarea de prueba a una hora específica
-hora_envio = '17:04'  # Hora en formato 24 horas
+hora_envio = '17:08'  # Hora en formato 24 horas
 
 # Programa la tarea
 schedule.every().day.at(hora_envio).do(tarea_de_prueba)
